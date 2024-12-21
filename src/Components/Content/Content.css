@@ -17,7 +17,7 @@
     padding: 20px;
   }
   .group-1-heading > img {
-    width: 28px;
+    width: 35px;
     height: 31px;
     padding-right: 10px;
   }
@@ -59,6 +59,7 @@
   .group-2 {
     display: flex;
     flex-direction: column;
+    background: #fff;
     z-index: 2;
     width: 265px;
     height: 164px;

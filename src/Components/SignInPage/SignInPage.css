@@ -10,5 +10,8 @@
 .right {
   width: 50%;
   height: 960px;
-  background-color: blue;
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

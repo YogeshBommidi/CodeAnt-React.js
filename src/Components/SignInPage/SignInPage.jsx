@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import './SignInPage.css'
 import Content from "../Content/Content";
+import Login from "./Login/Login";
 
 export default class SignInPage extends Component {
   render() {
@@ -10,7 +11,7 @@ export default class SignInPage extends Component {
             <Content/>
         </div>
         <div className="right">
-            <p>sign in page</p>
+            <Login/>
         </div>
       </div>
     );

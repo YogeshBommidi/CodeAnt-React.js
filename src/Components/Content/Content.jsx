@@ -8,7 +8,7 @@ export default class Content extends Component {
       <div className="content">
         <div className="group-1">
           <div className="group-1-heading">
-            <img src="/logo.jpg" alt="logo" />
+            <img src="/logo1.png" alt="logo" />
             <span className="heading-text">
               AI to Detect & Autofix Bad Code
             </span>
