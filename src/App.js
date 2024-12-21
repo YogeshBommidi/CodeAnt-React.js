@@ -1,9 +1,10 @@
 import './App.css';
+import SignInPage from './Components/SignInPage/SignInPage';
 
 function App() {
   return (
     <div className="App">
-      <p>CodeAnt Assignment</p>
+      <SignInPage/>
     </div>
   );
 }

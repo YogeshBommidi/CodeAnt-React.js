@@ -1,0 +1,14 @@
+.signinpage {
+  display: flex;
+  width: 100%;
+}
+.left {
+  width: 50%;
+  height: 960px;
+  background-color: white;
+}
+.right {
+  width: 50%;
+  height: 960px;
+  background-color: blue;
+}
