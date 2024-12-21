@@ -73,3 +73,30 @@ button{
     width: 36px;
     height: 40px;
 }
+
+@media screen and (max-width: 1024px){
+    .login-box{
+        width: 408px;height: 582px;
+    }
+    button{
+        width: 187px;
+        height: 52px;
+    }
+    .login-text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .login-with-type{
+        width: 376px;
+        height: 58px;
+    }
+    .box-heading > span{
+        font-weight: 600;
+        font-size: 24px;
+    }
+    .company > img{
+        width: 36px;
+        height: 40px;
+    }
+}

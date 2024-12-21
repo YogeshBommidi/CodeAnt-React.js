@@ -114,3 +114,9 @@
     top: 641px;
     position: absolute;
   }
+
+  @media screen and (max-width: 768px){
+    .content{
+      display: none;
+    }
+  }
