@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import './SignInPage.css'
 import Content from "../Content/Content";
-import Login from "./Login/Login";
+import Login from "../Login/Login";
 
 export default class SignInPage extends Component {
   render() {
