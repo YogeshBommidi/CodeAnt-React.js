@@ -42,6 +42,7 @@
   justify-content: center;
   margin-bottom: 15px;
   gap: 10px;
+  padding: 10px;
 }
 .repo-menu-dropdown > span {
   font-weight: 400;
@@ -62,7 +63,8 @@
   border: none;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  padding: 10px;
   margin-bottom: 10px;
   background: #1570ef;
   font-weight: 600;
@@ -81,7 +83,7 @@
   font-weight: 500;
   font-size: 16px;
 }
-.repo-menu-items > img{
+.repo-menu-items > img {
   width: 22.5px;
   height: 15.75px;
   color: #414651;
@@ -178,8 +180,8 @@
 .repo-cards {
   width: 100%;
 }
-.repo-right-container.menu-opened{
-  background-color:grey;
+.repo-right-container.menu-opened {
+  background-color: grey;
 }
 
 /*for mobile optimization*/
@@ -245,7 +247,7 @@
   }
   .repo-left-button {
     display: flex;
-    align-items: center ;
+    align-items: center;
     justify-content: start;
     padding: 10px;
     position: static;
@@ -257,13 +259,12 @@
     color: black;
   }
   .repo-menu-items:nth-last-child(2) {
-    position:static;
-
+    position: static;
   }
   .repo-menu-items:nth-last-child(1) {
     position: static;
   }
-  .repo-menu-dropdown{
+  .repo-menu-dropdown {
     width: 100%;
     gap: 0px;
     display: flex;

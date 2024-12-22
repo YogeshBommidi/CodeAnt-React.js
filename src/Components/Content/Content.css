@@ -1,122 +1,121 @@
 .group-1 {
-    display: flex;
-    flex-direction: column;
-    width: 447px;
-    height: 170px;
-    position: absolute;
-    top: 319px;
-    left: 123px;
-    z-index: 1;
-    border-radius: 20px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  }
-  .group-1-heading {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    padding: 20px;
-  }
-  .group-1-heading > img {
-    width: 35px;
-    height: 31px;
-    padding-right: 10px;
-  }
-  .heading-text {
-    font-weight: 700;
-    font-size: 18px;
-  }
-  
-  hr { 
-      border: 0; 
-      height: 1px; 
-      background: #ddd;
-      margin: 0px 0; 
-  } 
-  
-  .stats {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    flex-wrap: wrap;
-    padding: 20px;
-    gap: 3rem;
-  }
-  .stat {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  .number-font {
-    font-size: 18px;
-    font-weight: 700;
-  }
-  .text-font{
-      font-weight: 400;
-      font-size: 14px;
-  }
-  .group-2 {
-    display: flex;
-    flex-direction: column;
-    background: #fff;
-    z-index: 2;
-    width: 265px;
-    height: 164px;
-    gap: 10px;
-    position: absolute;
-    top: 477px;
-    left: 327px;
-    padding: 10px 25px;    
-    border-radius: 20px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  flex-direction: column;
+  width: 447px;
+  height: 170px;
+  position: absolute;
+  top: 319px;
+  left: 123px;
+  z-index: 1;
+  border-radius: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-  .section1{
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 100px;
-  }
-  .piechart1{
-      position: relative;
-      width: 56px;
-      height: 56.77px;
-  }
-  .piechart2{
-      position: absolute;
-      width: 28px;
-      height: 28.38px;
-      top: 22px;
-      left: 40px;
-  }
-  .increament > div{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  }
-  .increament > span{
-      font-size: 12px;
-  }
-  .section2{
-      display: flex;
-      flex-direction: column;
-      font-weight: 700;
-      font-size: 32px;
-  }
-  .section2 :nth-child(1){
-      font-size: 14px;
-  }
-  
-  
-  .logo {
-    width: 284px;
-    height: 319px;
-    top: 641px;
-    position: absolute;
-  }
+.group-1-heading {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 20px;
+}
+.group-1-heading > img {
+  width: 35px;
+  height: 31px;
+  padding-right: 10px;
+}
+.heading-text {
+  font-weight: 700;
+  font-size: 18px;
+}
 
-  @media screen and (max-width: 768px){
-    .content{
-      display: none;
-    }
+hr {
+  border: 0;
+  height: 1px;
+  background: #ddd;
+  margin: 0px 0;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 3rem;
+}
+.stat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.number-font {
+  font-size: 18px;
+  font-weight: 700;
+}
+.text-font {
+  font-weight: 400;
+  font-size: 14px;
+}
+.group-2 {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  z-index: 2;
+  width: 265px;
+  height: 164px;
+  gap: 10px;
+  position: absolute;
+  top: 477px;
+  left: 327px;
+  padding: 10px 25px;
+  border-radius: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}
+.piechart1 {
+  position: relative;
+  width: 56px;
+  height: 56.77px;
+}
+.piechart2 {
+  position: absolute;
+  width: 28px;
+  height: 28.38px;
+  top: 22px;
+  left: 40px;
+}
+.increament > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.increament > span {
+  font-size: 12px;
+}
+.section2 {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 32px;
+}
+.section2 :nth-child(1) {
+  font-size: 14px;
+}
+
+.logo {
+  width: 284px;
+  height: 319px;
+  top: 641px;
+  position: absolute;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    display: none;
   }
+}

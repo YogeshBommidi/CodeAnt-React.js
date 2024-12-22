@@ -41,10 +41,10 @@ export default class Content extends Component {
         <div className="group-2">
           <div className="section1">
             <div className="piechart">
-                <div>
-                    <img src="/Ellipse.png" alt="" className="piechart1"/>
-                    <img src="pie-chart.png" alt="" className="piechart2"/>
-                </div>
+              <div>
+                <img src="/Ellipse.png" alt="" className="piechart1" />
+                <img src="pie-chart.png" alt="" className="piechart2" />
+              </div>
             </div>
             <div className="increament">
               <div>
