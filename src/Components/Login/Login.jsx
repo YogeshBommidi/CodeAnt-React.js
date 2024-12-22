@@ -17,7 +17,7 @@ export default function Login() {
           </div>
           <span>Welcome to CodeAnt AI</span>
           <div className="saas/selfhosted">
-            <button
+            <button className="btn"
               onClick={() => handleButtonClick("button1")}
               style={{
                 backgroundColor:
@@ -27,7 +27,7 @@ export default function Login() {
             >
               SAAS
             </button>
-            <button
+            <button className="btn"
               onClick={() => handleButtonClick("button2")}
               style={{
                 backgroundColor:

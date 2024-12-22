@@ -36,7 +36,7 @@ hr {
     background: #ddd;
     margin: 0px 0; 
 } 
-button{
+.btn{
     width: 311px;
     height: 60px;  
     border-radius: 5px;

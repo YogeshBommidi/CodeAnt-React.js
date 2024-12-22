@@ -8,6 +8,7 @@ function App() {
       <h1>Signin Page</h1>
       <SignInPage/>
       <h1>Repository Page</h1>
+      <hr />
       <RepoPage/>
     </div>
   );

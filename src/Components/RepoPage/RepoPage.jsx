@@ -6,41 +6,43 @@ export default class extends Component {
     return (
       <div className="Repo-Container">
         <div className="repo-left">
-          <div>
+          <div className="repo-company-container">
             <img src="/logo1.png" alt="" />
             <span>CodeAnt AI</span>
           </div>
-          <div>
+          <div className="repo-menu-dropdown">
             <span>UtkarshDhairyaPa...</span>
             <img src="/chevron-down.png" alt="" />
           </div>
-          <div>
-            <img src="/home.png" alt="" />
-            <span>Repositories</span>
-          </div>
-          <div>
-            <img src="/code.png" alt="" />
-            <span>AI Code Review</span>
-          </div>
-          <div>
-            <img src="/cloud.png" alt="" />
-            <span>Cloud Security</span>
-          </div>
-          <div>
-            <img src="/book.png" alt="" />
-            <span>How to Use</span>
-          </div>
-          <div>
-            <img src="/gear.png" alt="" />
-            <span>Settings</span>
-          </div>
-          <div>
-            <img src="/phone.png" alt="" />
-            <span>Support</span>
-          </div>
-          <div>
-            <img src="/sign-out.png" alt="" />
-            <span>Logout</span>
+          <button className="repo-button">
+              <img src="/home.png" alt="" />
+              <span>Repositories</span>
+            </button>
+          <div className="repo-menu">
+            <div className="repo-menu-items">
+              <img src="/code.png" alt="" />
+              <span>AI Code Review</span>
+            </div>
+            <div className="repo-menu-items">
+              <img src="/cloud.png" alt="" />
+              <span>Cloud Security</span>
+            </div>
+            <div className="repo-menu-items">
+              <img src="/book.png" alt="" />
+              <span>How to Use</span>
+            </div>
+            <div className="repo-menu-items">
+              <img src="/gear.png" alt="" />
+              <span>Settings</span>
+            </div>
+            <div className="repo-menu-items">
+              <img src="/phone.png" alt="" />
+              <span>Support</span>
+            </div>
+            <div className="repo-menu-items">
+              <img src="/sign-out.png" alt="" />
+              <span>Logout</span>
+            </div>
           </div>
         </div>
         <div className="repo-right">
@@ -76,9 +78,7 @@ export default class extends Component {
                 <img src="/database.png" alt="" />
                 <span>7320 KB</span>
               </div>
-              <span>
-                Updated 1 day ago
-              </span>
+              <span>Updated 1 day ago</span>
             </div>
           </div>
           <div className="repobox">
@@ -95,9 +95,7 @@ export default class extends Component {
                 <img src="/database.png" alt="" />
                 <span>7320 KB</span>
               </div>
-              <span>
-                Updated 1 day ago
-              </span>
+              <span>Updated 1 day ago</span>
             </div>
           </div>
         </div>
