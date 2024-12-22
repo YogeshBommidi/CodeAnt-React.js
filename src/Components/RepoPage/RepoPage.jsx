@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./RepoPage.css";
+import repodata from "../../Data/repo-data.json"
+import RepositoriesCards from "../RepositoriesCards/RepositoriesCards";
 
 export default class extends Component {
   render() {
@@ -14,10 +16,10 @@ export default class extends Component {
             <span>UtkarshDhairyaPa...</span>
             <img src="/chevron-down.png" alt="" />
           </div>
-          <button className="repo-button">
-              <img src="/home.png" alt="" />
-              <span>Repositories</span>
-            </button>
+          <button className="repo-left-button">
+            <img src="/home.png" alt="" />
+            <span>Repositories</span>
+          </button>
           <div className="repo-menu">
             <div className="repo-menu-items">
               <img src="/code.png" alt="" />
@@ -46,56 +48,33 @@ export default class extends Component {
           </div>
         </div>
         <div className="repo-right">
-          <div className="repo-heading">
-            <div>
-              <span>Repositories</span>
-              <span>33 total repositories</span>
-            </div>
-            <div>
-              <img src="/refresh.png" alt="" />
-              <span>Refresh All</span>
-            </div>
-            <div>
-              <img src="/plus.png" alt="" />
-              <span>Add Repository</span>
-            </div>
-          </div>
-          <div className="search">
-            <img src="/search.png" alt="" />
-            <span>Search Repositories</span>
-          </div>
-          <div className="repobox">
-            <div>
-              <span>design-system</span>
-              <span>public</span>
-            </div>
-            <div>
-              <div>
-                <span>React</span>
-                <img src="/Ellipse-1.png" alt="" />
+          <div className="repo-right-container">
+            <div className="repo-right-hero">
+              <div className="repo-heading">
+                <span>Repositories</span>
+                <span>33 total repositories</span>
               </div>
-              <div>
-                <img src="/database.png" alt="" />
-                <span>7320 KB</span>
+              <div className="repo-right-buttons">
+                <button className="repo-right-button">
+                  <img src="/refresh.png" alt="" />
+                  <span>Refresh All</span>
+                </button>
+                <button className="repo-right-button right-button-2">
+                  <img src="/plus.png" alt="" />
+                  <span>Add Repository</span>
+                </button>
               </div>
-              <span>Updated 1 day ago</span>
             </div>
-          </div>
-          <div className="repobox">
-            <div>
-              <span>design-system</span>
-              <span>public</span>
+            <div className="search-bar">
+              <img src="/search.png" alt="" />
+              <span>Search Repositories</span>
             </div>
-            <div>
-              <div>
-                <span>React</span>
-                <img src="/Ellipse-1.png" alt="" />
-              </div>
-              <div>
-                <img src="/database.png" alt="" />
-                <span>7320 KB</span>
-              </div>
-              <span>Updated 1 day ago</span>
+            <div className="repo-cards">
+              {
+                repodata.map((cards, i) => {
+                  return <RepositoriesCards cards = {cards} key = {i} />
+                })
+              }
             </div>
           </div>
         </div>

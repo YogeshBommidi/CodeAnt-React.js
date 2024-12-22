@@ -1,0 +1,51 @@
+[
+  {
+    "name": "design-system",
+    "type" : "Public",
+    "language": "React",
+    "size": 7320,
+    "day": 1
+  },
+  {
+    "name": "codeant-ci-app",
+    "type" : "Private",
+    "language": "Javascript",
+    "size": 5871,
+    "day": 2
+  },
+  {
+    "name": "analytics-dashboard",
+    "type" : "Private",
+    "language": "Python",
+    "size": 4521,
+    "day": 5
+  },
+  {
+    "name": "mobile-app",
+    "type" : "Public",
+    "language": "Swift",
+    "size": 3096,
+    "day": 3
+  },
+  {
+    "name": "e-commerce-platform",
+    "type" : "Private",
+    "language": "Java",
+    "size": 6210,
+    "day": 6
+  },
+  {
+    "name": "blog-website",
+    "type" : "Public",
+    "language": "HTML/CSS",
+    "size": 1876,
+    "day": 4
+  },
+  {
+    "name": "social-network",
+    "type" : "Private",
+    "language": "PHP",
+    "size": 5432,
+    "day": 7
+  }
+]
