@@ -33,7 +33,7 @@
   font-size: 24px;
 }
 .repo-menu-dropdown {
-  border: 1px solid grey;
+  border: 1px solid #e9eaeb;
   border-radius: 5px;
   width: 200px;
   height: 40px;
@@ -46,6 +46,7 @@
 .repo-menu-dropdown > span {
   font-weight: 400;
   font-size: 16px;
+  overflow: hidden;
 }
 .repo-menu {
   display: flex;
@@ -59,6 +60,9 @@
   height: 44px;
   border-radius: 5px;
   border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 10px;
   background: #1570ef;
   font-weight: 600;
@@ -76,6 +80,11 @@
   gap: 10px;
   font-weight: 500;
   font-size: 16px;
+}
+.repo-menu-items > img{
+  width: 22.5px;
+  height: 15.75px;
+  color: #414651;
 }
 .repo-menu-items:nth-last-child(2) {
   position: absolute;
@@ -169,6 +178,9 @@
 .repo-cards {
   width: 100%;
 }
+.repo-right-container.menu-opened{
+  background-color:grey;
+}
 
 /*for mobile optimization*/
 @media screen and (max-width: 1024px) {
@@ -189,7 +201,7 @@
     width: 100%;
     display: flex;
   }
-  .repo-left-header{
+  .repo-left-header {
     width: 100%;
     display: flex;
     align-items: center;
@@ -202,13 +214,10 @@
     align-items: center;
     justify-content: flex-start;
   }
-  .repo-menu {
-    display: none;
-  }
-  .repo-right{
+  .repo-right {
     width: 100%;
   }
-  .repo-right-container{
+  .repo-right-container {
     width: 100%;
   }
   .search-bar {
@@ -216,5 +225,51 @@
   }
   .repo-right-hero {
     gap: 10px;
+  }
+  .repo-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background: #fff;
+    color: black;
+    top: 65px;
+    left: 0px;
+    height: fit-content;
+    width: 100%;
+    font-weight: 400;
+    align-items: start;
+    justify-content: start;
+    transition: all 300ms ease-in-out;
+    z-index: 3;
+    border-bottom: 1px solid #e9eaeb;
+  }
+  .repo-left-button {
+    display: flex;
+    align-items: center ;
+    justify-content: start;
+    padding: 10px;
+    position: static;
+    gap: 10px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    background: none;
+    color: black;
+  }
+  .repo-menu-items:nth-last-child(2) {
+    position:static;
+
+  }
+  .repo-menu-items:nth-last-child(1) {
+    position: static;
+  }
+  .repo-menu-dropdown{
+    width: 100%;
+    gap: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0px;
   }
 }
