@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./RepoPage.css";
-import repodata from "../../Data/repo-data.json"
+import repodata from "../../Data/repo-data.json";
 import RepositoriesCards from "../RepositoriesCards/RepositoriesCards";
 
 export default class extends Component {
@@ -8,19 +8,23 @@ export default class extends Component {
     return (
       <div className="Repo-Container">
         <div className="repo-left">
-          <div className="repo-company-container">
-            <img src="/logo1.png" alt="" />
-            <span>CodeAnt AI</span>
+          <div className="repo-left-header">
+            <div className="repo-company-container">
+              <img src="/logo1.png" alt="" />
+              <span>CodeAnt AI</span>
+            </div>
+            <img src="/hamburger.png" alt="" />
           </div>
-          <div className="repo-menu-dropdown">
-            <span>UtkarshDhairyaPa...</span>
-            <img src="/chevron-down.png" alt="" />
-          </div>
-          <button className="repo-left-button">
-            <img src="/home.png" alt="" />
-            <span>Repositories</span>
-          </button>
+
           <div className="repo-menu">
+            <div className="repo-menu-dropdown">
+              <span>UtkarshDhairyaPa...</span>
+              <img src="/chevron-down.png" alt="" />
+            </div>
+            <button className="repo-left-button">
+              <img src="/home.png" alt="" />
+              <span>Repositories</span>
+            </button>
             <div className="repo-menu-items">
               <img src="/code.png" alt="" />
               <span>AI Code Review</span>
@@ -70,11 +74,9 @@ export default class extends Component {
               <span>Search Repositories</span>
             </div>
             <div className="repo-cards">
-              {
-                repodata.map((cards, i) => {
-                  return <RepositoriesCards cards = {cards} key = {i} />
-                })
-              }
+              {repodata.map((cards, i) => {
+                return <RepositoriesCards cards={cards} key={i} />;
+              })}
             </div>
           </div>
         </div>

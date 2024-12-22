@@ -1,16 +1,16 @@
-import './App.css';
-import RepoPage from './Components/RepoPage/RepoPage';
-import SignInPage from './Components/SignInPage/SignInPage';
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import RepoPage from "./Components/RepoPage/RepoPage";
+import SignInPage from "./Components/SignInPage/SignInPage";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Signin Page</h1>
-      <SignInPage/>
-      <h1>Repository Page</h1>
-      <hr />
-      <RepoPage/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<SignInPage />} />
+        <Route path="/Repository" element={<RepoPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
