@@ -3,6 +3,10 @@ This is CodeAnt Frontend Developer Intern Hiring Assignment.
 This is developed using React(yarn).
 This project took approx 16 hours to complete this asiignment.
 
+PREREQUISITES:
+Node.js - version 20+.
+VS Code or any other code editor.
+
 HOW TO RUN:
 1. clone this repository("git clone "https://github.com/YogeshBommidi/CodeAnt-assignment").
 2. Navigate to this Repository("cd CodeAnt-assignment").
